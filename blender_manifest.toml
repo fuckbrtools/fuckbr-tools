@@ -1,0 +1,31 @@
+schema_version = "1.0.0"
+
+id = "fuckbr"
+version = "2.5.0"
+name = "fuckbr tool"
+tagline = "Blender Add-on to fuck br"
+maintainer = "пьянный мастер разработчик  | RRMODELING / RR:mods"
+type = "add-on"
+
+website = "https://github.com/fuckbrtools/fuckbr-tools.git"
+
+# # Optional: tag list defined by Blender and server, see:
+# # https://docs.blender.org/manual/en/dev/advanced/extensions/tags.html
+tags = ["Import-Export", "3D View", "Mesh", "Material"]
+
+blender_version_min = "4.2.0"
+# blender_version_max = "5.1.0"
+
+# License conforming to https://spdx.org/licenses/ (use "SPDX: prefix)
+# https://docs.blender.org/manual/en/dev/advanced/extensions/licenses.html
+license = [
+  "SPDX:GPL-3.0-or-later"
+]
+
+copyright = [
+    "2024–2025 RRMODELING / RR:mods | пьяный мастер | разработчик",
+    "Основано на Python DFF Interface © 2007–2012"
+]
+
+[permissions]
+files = "Import/export FBX/DFF/TXD/COL/IPL/IDE from/to disk"
